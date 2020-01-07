@@ -16,20 +16,19 @@ int main(int argc, char* argv[])
     switch(operator)
     {
         case '+':
-        c = add(a, b);
+        c = a + b;
         break;
         
         case '-':
-        c = sub(a, b);
+        c = a - b;
         break;
 
         case '*';
-        c = multi(a, b);
+        c = a * b;
         break;
 
         case '/';
-        c = div(a, b);
+        c = a / b;
         break;
     }
 }
-
