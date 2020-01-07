@@ -11,6 +11,7 @@ int main(int argc, char* argv[])
     char operator;
 
     printf("Please enter a expression");
+	printf("수식을 입력하세요:");
     scanf("%d %c %d", &a, &operator, &b);
 
     switch(operator)
@@ -31,8 +32,4 @@ int main(int argc, char* argv[])
         c = a / b;
         break;
     }
-}
-
-int add(int a,int b){
-	return a+b;
 }
