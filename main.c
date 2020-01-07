@@ -11,6 +11,7 @@ int main(int argc, char* argv[])
     char operator;
 
     printf("Please enter a expression");
+    printf("Please enter a expression(ex> 1 + 2): ");
     scanf("%d %c %d", &a, &operator, &b);
 
     switch(operator)
