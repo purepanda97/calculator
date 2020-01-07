@@ -32,3 +32,7 @@ int main(int argc, char* argv[])
         break;
     }
 }
+
+int add(int a,int b){
+	return a+b;
+}
